@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://kamyabs.github.io/atom.xml" rel="self"/>
   <link href="http://kamyabs.github.io/"/>
-  <updated>2017-03-05T01:27:12+03:30</updated>
+  <updated>2017-03-05T01:38:36+03:30</updated>
   <id>http://kamyabs.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -12,5 +12,14 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[سلام شروع می کنم!]]></title>
+    <link href="http://kamyabs.github.io/blog/2017/03/05/slm-shrw%60-my-khnm/"/>
+    <updated>2017-03-05T01:29:52+03:30</updated>
+    <id>http://kamyabs.github.io/blog/2017/03/05/slm-shrw`-my-khnm</id>
+    <content type="html"><![CDATA[<p><body text=#ff9966>سلام دوستان عزیز اینجا اولین پست من است امیدوارم بتونم با گیت کنار بیام!!!!!</body></p>
+]]></content>
+  </entry>
   
 </feed>
