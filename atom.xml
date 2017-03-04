@@ -4,7 +4,7 @@
   <title><![CDATA[InFeRno]]></title>
   <link href="http://kamyabs.github.io/atom.xml" rel="self"/>
   <link href="http://kamyabs.github.io/"/>
-  <updated>2017-03-05T01:53:56+03:30</updated>
+  <updated>2017-03-05T01:59:18+03:30</updated>
   <id>http://kamyabs.github.io/</id>
   <author>
     <name><![CDATA[kamyab sotudeh]]></name>
@@ -18,7 +18,9 @@
     <link href="http://kamyabs.github.io/blog/2017/03/05/slm-shrw%60-my-khnm/"/>
     <updated>2017-03-05T01:29:52+03:30</updated>
     <id>http://kamyabs.github.io/blog/2017/03/05/slm-shrw`-my-khnm</id>
-    <content type="html"><![CDATA[<p><body text=#ff9966>سلام دوستان عزیز اینجا اولین پست من است امیدوارم بتونم با گیت کنار بیام!!!!!</body></p>
+    <content type="html"><![CDATA[<p><html>
+<body text=#99cc00>سلام دوستان عزیز اینجا اولین پست من است امیدوارم بتونم با گیت کنار بیام!!!!!</body>
+</html></p>
 ]]></content>
   </entry>
   
