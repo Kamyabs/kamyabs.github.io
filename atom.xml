@@ -4,7 +4,7 @@
   <title><![CDATA[InFeRno]]></title>
   <link href="http://kamyabs.github.io/atom.xml" rel="self"/>
   <link href="http://kamyabs.github.io/"/>
-  <updated>2017-03-05T02:02:50+03:30</updated>
+  <updated>2017-03-05T02:05:44+03:30</updated>
   <id>http://kamyabs.github.io/</id>
   <author>
     <name><![CDATA[kamyab sotudeh]]></name>
@@ -21,7 +21,8 @@
     <content type="html"><![CDATA[<p><html>
 <body text=#99cc00>سلام دوستان عزیز اینجا اولین پست من است امیدوارم بتونم با گیت کنار بیام!!!!!</body></p>
 
-<p>&lt;h?> سلام دوستان عزیز اینجا اولین پست من است امیدوارم بتونم با گیت کنار بیام!&lt;/h?></p>
+<h1> سلام دوستان عزیز اینجا اولین پست من است امیدوارم بتونم با گیت کنار بیام!</h1>
+
 
 <p></html></p>
 ]]></content>
