@@ -4,7 +4,7 @@
   <title><![CDATA[InFeRno]]></title>
   <link href="http://kamyabs.github.io/atom.xml" rel="self"/>
   <link href="http://kamyabs.github.io/"/>
-  <updated>2017-03-05T02:05:44+03:30</updated>
+  <updated>2017-03-05T02:21:41+03:30</updated>
   <id>http://kamyabs.github.io/</id>
   <author>
     <name><![CDATA[kamyab sotudeh]]></name>
@@ -21,7 +21,27 @@
     <content type="html"><![CDATA[<p><html>
 <body text=#99cc00>سلام دوستان عزیز اینجا اولین پست من است امیدوارم بتونم با گیت کنار بیام!!!!!</body></p>
 
-<h1> سلام دوستان عزیز اینجا اولین پست من است امیدوارم بتونم با گیت کنار بیام!</h1>
+<figure class='code'><figcaption><span>[c++ code] [url] [link text] </span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>#include &lt;iostream>
+</span><span class='line'>
+</span><span class='line'>using namespace std;
+</span><span class='line'>int main()
+</span><span class='line'>{
+</span><span class='line'>
+</span><span class='line'>  int a;
+</span><span class='line'>
+</span><span class='line'>  retunr 0;
+</span><span class='line'>}</span></code></pre></td></tr></table></div></figure>
 
 
 <p></html></p>
