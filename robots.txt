@@ -1,4 +1,4 @@
 User-agent: *
-Disallow: 
+Disallow:
 
-Sitemap: http://kamyabs.github.io/sitemap.xml 
+Sitemap: http://kamyabs.github.io/sitemap.xml
