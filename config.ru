@@ -4,6 +4,17 @@ require 'sinatra/base'
 # The project root directory
 $root = ::File.dirname(__FILE__)
 
+ENV['RACK_ENV'] ||= 'development'
+
+ENV['SITE_URL'] ||= 'www.kamyabs.github.io'
+
+use Rack::Rewrite do
+  r301 %r{.*}, "http://#{ENV['SITE_URL']}$&", :if => Proc.new { |rack_env|
+      ENV['RACK_ENV'] == 'production' && rack_env['SERVER_NAME'] != ENV['SITE_URL']
+    }
+  r301 %r{^(.+)/$}, '$1'
+end
+
 class SinatraStaticServer < Sinatra::Base
 
   get(/.+/) do
@@ -20,6 +31,17 @@ class SinatraStaticServer < Sinatra::Base
     File.exist?(file_path) ? send_file(file_path) : missing_file_block.call
   end
 
+end
+
+ENV['RACK_ENV'] ||= 'development'
+
+ENV['SITE_URL'] ||= 'www.learnaholic.me'
+
+use Rack::Rewrite do
+  r301 %r{.*}, "http://#{ENV['SITE_URL']}$&", :if => Proc.new { |rack_env|
+      ENV['RACK_ENV'] == 'production' && rack_env['SERVER_NAME'] != ENV['SITE_URL']
+    }
+  r301 %r{^(.+)/$}, '$1'
 end
 
 run SinatraStaticServer
