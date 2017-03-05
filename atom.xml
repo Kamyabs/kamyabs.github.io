@@ -4,7 +4,7 @@
   <title><![CDATA[InFeRno]]></title>
   <link href="http://kamyabs.github.io/atom.xml" rel="self"/>
   <link href="http://kamyabs.github.io/"/>
-  <updated>2017-03-05T21:07:15+03:30</updated>
+  <updated>2017-03-06T00:28:32+03:30</updated>
   <id>http://kamyabs.github.io/</id>
   <author>
     <name><![CDATA[kamyab sotudeh]]></name>
@@ -12,6 +12,48 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[نحوه اجرای بازی های پلی استیشین ۱ در لینوکس :)]]></title>
+    <link href="http://kamyabs.github.io/2017/03/05/%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C-%D8%A8%D8%A7%D8%B2%DB%8C-%D9%87%D8%A7%DB%8C-ps1-%D8%AF%D8%B1-%D9%84%DB%8C%D9%86%D9%88%DA%A9%D8%B3/"/>
+    <updated>2017-03-05T23:55:49+03:30</updated>
+    <id>http://kamyabs.github.io/2017/03/05/اجرای-بازی-های-ps1-در-لینوکس</id>
+    <content type="html"><![CDATA[<p><body dir="rtl"></p>
+
+<h3>اجرای بازی های پلی استیشین ۱ در لینوکس ‪:)</h3>
+
+
+<p>
+در این پست می خوام نحوه اجرای بازی های ‫ps1 و یا همون پلی استیشین ۱ را اموزش بدم که خیلی حس خوب و نوستالژی هست همم اینکه موجب سرگرمی و یاد اوری خاطرات می شه.<br>
+اولین چیزی که نیاز هست یک دستگاه پی سی با سیستم عامل لینوکس :) که مطمئنم همه دارند و کسی سمت ماکروسافت با ویندوز مسخرش نمیره.<br>
+ابتدا در سیستم های دبیان بیس دستور زیر را وارد کنید برای نصب امولاتور pcSX : ‫<br>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'>‪sudo apt install pcsxr
+</span></code></pre></td></tr></table></div></figure>
+سپس تنها چیزی که نیاز دارید دانلود فایل بایوس این ایمولاتور هست که می تونید از ادرس زیر به راحتی دانلود کنید : <br>
+<a href="http://dllyes.com/scph7502-bin-download/"> http://dllyes.com/scph7502-bin-download/ </a> <br>
+سپس ابتدا یک بار نرم افزار pcsx را اجرا کنید و بعدش می بینید که در پوشه دایرکتوری ‫home یک فایل با نام ‫/.pcsx اجرا شده.<br>
+الان فقط کافیست فایل دانلود شده بایوس را در ادرس زیر وارد کنید :<br>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'>‪‘~/.pcsx/bios
+</span></code></pre></td></tr></table></div></figure>
+حالا دوباره نرم افزار را اجرا کنید و به ادرس ‫'confugration ->plugin and bios'برید و در انجا باید مطابق تصویر زیر را مشاهده کنید که نشان می دهد همه چیز به درستی انجام شده : <br>
+<img src="https://pichoster.net/images/2017/03/05/48c9fa9855802e1675283f25e94e950e.jpg" alt="48c9fa9855802e1675283f25e94e950e.jpg" border="0" /><br>
+حالا شما به فایل های مورد نظر بازیتون برای اجرا در ایمولاتر pcsx نیاز دارید که می توانید بطور کاملا رایگان و قانونی بازی مورد نظرتون رو از سایت :‌ <br>
+‫‪<a hrfe="https://www.emuparadise.me/roms/search.php?query=&section=roms&sysid=2">https://www.emuparadise.me/roms/search.php?query=&section=roms&sysid=2<a>
+<br>
+بعد از دانلود و اکسترکت کردن فایل که عموما با پسوند ‫7z می باشند باید انها را به ایمولانور pcsx معرفی کنید.<br>
+اگر بعد از اجرای بازی نرم افزار هنگ کرد و یا صفحه سیاه شد طبق دستور عمل زیر عمل کنید: <br>
+در ادرس ‫~/.pscx فایل ‫pcsx.cfg را ادیت کرده و در ان مقدار cpu = 0 را به cpu = 1 تغییر بدید و دوباره بازی را اجرا کرده و لذت ببرید.<br>
+درضمن منبع اصلی این مطلب یک فروم لینوکسی معروف بود که لینکش رو قرار می دم : <br>
+‪<a href="https://www.linuxforum.com/threads/playstation-1-and-2-on-linux.3880/">https://www.linuxforum.com/threads/playstation-1-and-2-on-linux.3880/<a>
+</p>
+
+
+<p></body></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[معرفی جادی دات نت]]></title>
