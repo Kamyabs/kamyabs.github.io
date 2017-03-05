@@ -4,7 +4,7 @@
   <title><![CDATA[InFeRno]]></title>
   <link href="http://kamyabs.github.io/atom.xml" rel="self"/>
   <link href="http://kamyabs.github.io/"/>
-  <updated>2017-03-05T14:56:05+03:30</updated>
+  <updated>2017-03-05T15:42:20+03:30</updated>
   <id>http://kamyabs.github.io/</id>
   <author>
     <name><![CDATA[kamyab sotudeh]]></name>
@@ -12,6 +12,48 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[ساخت ایکون و لوگوی سایت]]></title>
+    <link href="http://kamyabs.github.io/blog/2017/03/05/title/"/>
+    <updated>2017-03-05T14:58:55+03:30</updated>
+    <id>http://kamyabs.github.io/blog/2017/03/05/title</id>
+    <content type="html"><![CDATA[<h3 style="color:#b30059;">لوگوی دلخواه برای نمایش در کنار ادرس سایت؟!</h3>
+
+
+<p >
+اگر شما هم علاقه مندید که مثل خیلی از سایت های بزرگ یک لوگوی ساده و با طراحی خودتون در بالای مرورگر در کنار ادرس سایتتون قرار بگیره پیشنهاد می کنم این مطلب رو بخوانید.<br>
+من خودم امروز که دومین پست وبلاگم می گذارم به دنبال تغییر لوگوی پیشفرض وبلاگم بودم که روی اکتوپرس بنا شده و به این سایت باحال رسیدم.<br>
+اسم این سایت <a href="http://www.favicon-generator.org/"> http://www.favicon-generator.org/ </a> و به سادگی می تونید بدون نیاز به ثبت نام درش لوگوی خودتون را با خلاقیت <br>
+طراحی کنید و در نهایت یک فایل به نام favicon.ico را دانلود کنید.دقت کنید که برای اجرای لوگو باید پسوند فایل .png باشد 
+به این مظور با استفاده از کد زیر در ترمینال (و یا سایت هایی که تبدیل فرمت انجام می دهند) این فایل خودتون رو از .ico به .png تبدیل کنید : <br>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'><span class="nv">$ </span>convert favicon.ico favicon.png
+</span></code></pre></td></tr></table></div></figure>
+
+سپس کافیست فایل favicon.png را در پوشه روت (root) سایتتون کپی کنید و بعد از رفرش می بینید که لوگو تغییر می کند!
+</p>
+
+
+
+
+<h3 style="color:#b30059;" >چگونه لوگوی پیشفرض octopress را تغییر بدیم؟!</h3>
+
+
+
+
+<p>
+پس از تبدیل فرمت فایل فقط کافیست favicon.png را در پوشه /source ریخته و تغییرات را کامیت (commit) کنید. به همین سادگی می بینید که لوگوی سایتتون تغییر کرد
+
+در اخر هم می تونید این ویدیو رو برای اموزش ببینید که به زبان اصلی است : 
+
+<iframe width="854" height="480" src="https://www.youtube.com/embed/KXhS11vrtno" frameborder="0" allowfullscreen></iframe>
+
+</p>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[در باره میزبانی با گیت هاب]]></title>
