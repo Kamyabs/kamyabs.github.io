@@ -28,6 +28,6 @@ $ convert favicon.ico favicon.png
 
 در اخر هم می تونید این ویدیو رو برای اموزش ببینید که به زبان اصلی است : 
 
-<iframe width="854" height="480" src="https://www.youtube.com/embed/KXhS11vrtno" frameborder="0" allowfullscreen></iframe>
+<iframe width="450" height="200" src="https://www.youtube.com/embed/KXhS11vrtno" frameborder="0" allowfullscreen></iframe>
 
 </p>
