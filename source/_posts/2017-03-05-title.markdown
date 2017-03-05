@@ -5,6 +5,7 @@ date: 2017-03-05 14:58:55 +0330
 comments: true
 categories: 
 ---
+<body dir="auto">
 <h3 style="color:#b30059;">لوگوی دلخواه برای نمایش در کنار ادرس سایت؟!</h3>
 <p >
 اگر شما هم علاقه مندید که مثل خیلی از سایت های بزرگ یک لوگوی ساده و با طراحی خودتون در بالای مرورگر در کنار ادرس سایتتون قرار بگیره پیشنهاد می کنم این مطلب رو بخوانید.<br>
@@ -31,3 +32,4 @@ $ convert favicon.ico favicon.png
 <iframe width="450" height="200" src="https://www.youtube.com/embed/KXhS11vrtno" frameborder="0" allowfullscreen></iframe>
 
 </p>
+</body>
