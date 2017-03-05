@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "در باره ی میزبانی با گیت هاب"
+title: "در باره میزبانی با گیت هاب"
 date: 2017-03-05 13:06:32 +0330
 comments: true
 categories: 
