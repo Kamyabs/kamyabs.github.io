@@ -5,7 +5,7 @@ date: 2017-03-05 14:58:55 +0330
 comments: true
 categories: 
 ---
-<body dir="rtl">
+<body dir="&#8236;">
 
 <h3 style="color:#b30059;">لوگوی دلخواه برای نمایش در کنار ادرس سایت؟!</h3>
 <p >
@@ -14,11 +14,13 @@ categories:
 اسم این سایت <a href="http://www.favicon-generator.org/"> http://www.favicon-generator.org/ </a> و به سادگی می تونید بدون نیاز به ثبت نام درش لوگوی خودتون را با خلاقیت <br>
 طراحی کنید و در نهایت یک فایل به نام favicon.ico را دانلود کنید.دقت کنید که برای اجرای لوگو باید پسوند فایل .png باشد 
 به این مظور با استفاده از کد زیر در ترمینال (و یا سایت هایی که تبدیل فرمت انجام می دهند) این فایل خودتون رو از .ico به .png تبدیل کنید : <br>
+‪‫‫‫‫‫‪<p>
 
-```sh
-$ convert favicon.ico favicon.png
+```sh 
+‪$ convert favicon.ico favicon.png 
 
 ```
+</p>
 
 سپس کافیست فایل favicon.png را در پوشه روت (root) سایتتون کپی کنید و بعد از رفرش می بینید که لوگو تغییر می کند!
 </p>
