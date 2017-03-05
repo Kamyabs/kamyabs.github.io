@@ -4,6 +4,8 @@ title: "معرفی جادی دات نت"
 date: 2017-03-05 17:26:11 +0330
 comments: true
 categories: 
+keywords: "keywords, پادکست جادی, معرفی جادی, درباره جادی"
+description: "معرفی جادی دات نت و نظر من راجب این استاد بزرگ"
 ---
 <body dir="rtl">
 <h3 style="color:#ff9966">یه کوچولو راجب جادی</h3>
