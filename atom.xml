@@ -4,7 +4,7 @@
   <title><![CDATA[GeeKnasaur | گیکناسور]]></title>
   <link href="http://kamyabs.github.io/atom.xml" rel="self"/>
   <link href="http://kamyabs.github.io/"/>
-  <updated>2017-03-06T17:07:57+03:30</updated>
+  <updated>2017-03-06T17:11:29+03:30</updated>
   <id>http://kamyabs.github.io/</id>
   <author>
     <name><![CDATA[kamyab sotudeh]]></name>
@@ -79,7 +79,7 @@
 <figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 </pre></td><td class='code'><pre><code class='sh'><span class='line'>‪<span class="nv">$ </span>sudo systemctl <span class="nb">enable </span>tor.service
-</span><span class='line'>‪<span class="nv">$sudo</span> systemctl restart tor.service
+</span><span class='line'>‪<span class="nv">$ </span>sudo systemctl restart tor.service
 </span></code></pre></td></tr></table></div></figure>
 حال کافیت با دستور زیر وضعیت سرویس تور خود را چک کنید که به شما می گوید ایا شما با موفقیت به پل ها وصل شدید ویا خطایی رخ داده است فقط کافیه دستور زیر را در ترمینال وارد کنید :
 <figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
@@ -87,8 +87,10 @@
 </span></code></pre></td></tr></table></div></figure>
 باید مطابق شکل زیر بعد از وارد کردن دستور بالا در انتهای لاگ تور ۱۰۰٪ را مشاهده کنید که گواهی از وصل شدن درست شما به سرویس تو با استفاده از بریج ها و پل هاست :
 ‪<img src="https://pichoster.net/images/2017/03/06/e7f0a1c9532b317ec364329f9287aecd.jpg" alt="e7f0a1c9532b317ec364329f9287aecd.jpg" border="0" />
+
 در اخرین مرحله باید پراکسی سیستم و یا نرم افزاری که می خواین ازش از طریق تور استفاده کنید را روی :
 127.0.0.1:9050‪
+
 تنظیم کنید وتمام.
 
 
