@@ -4,7 +4,7 @@
   <title><![CDATA[GeeKnasaur | گیکناسور]]></title>
   <link href="http://kamyabs.github.io/atom.xml" rel="self"/>
   <link href="http://kamyabs.github.io/"/>
-  <updated>2017-03-06T15:17:30+03:30</updated>
+  <updated>2017-03-06T17:07:57+03:30</updated>
   <id>http://kamyabs.github.io/</id>
   <author>
     <name><![CDATA[kamyab sotudeh]]></name>
@@ -12,6 +12,135 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[اموزش استفاده از تور (Tor)]]></title>
+    <link href="http://kamyabs.github.io/2017/03/06/%D9%86%D8%AD%D9%88%D9%87-%D9%BE%DB%8C%DA%A9%D8%B1%D8%A8%D9%86%D8%AF%DB%8C-%D8%AA%D9%88%D8%B1-%D8%A7%DB%8C%D9%86%D8%AA%D8%B1%D9%86%D8%AA-%D8%A7%D8%B2%D8%A7%D8%AF/"/>
+    <updated>2017-03-06T16:11:37+03:30</updated>
+    <id>http://kamyabs.github.io/2017/03/06/نحوه-پیکربندی-تور-اینترنت-ازاد</id>
+    <content type="html"><![CDATA[<p><body dir="rtl"></p>
+
+<h3>چرا تور ؟!</h3>
+
+
+<p>
+اینترنت ازاد چیزیه که همه ما دنبالش هستیم چیزیه که در تمام جهان ارائه می شه و حق هر کسی است که از سایت های مفید بتونه استفاده کنه.ولی متاسفانه در ابران بعضی سایت های بسیار مفید از دسترس خارج شده اند و یا حتی بر اثر تحریم های جهانی علیه ایران خیلی از سایت ها اجازه استفاده کاربران از ای پی های ایران را نمی دهند که مشکلات بسیار زیادی برای همه بوجود اوردند.راه های بسیاری برای دور زدن این امر وجود دارد مثل استفاده از پراکسی ها وی پی ان ها و ... که هر کدوم مشکلات و هزینه های خودشون رو داره در حالی که ما نباید برای استفاده از حق خودمون هزینه ای بابت چیزی بپردازیم اینجاست که بحث استفاده از تور (tor)در میان میاد که حلال بسیاری از مشکلات به شیوه ای امن و کاملا رایگان می باشد.
+</p>
+
+
+<h3>تور چیه اصلا؟!</h3>
+
+
+<p>
+تور چیست؟ این اولین سوالی که برای هرکسی پیش میاد برای پاسخ بهش می تونید به سایت اصلی تور به ادرس : <br>
+<a href="https://torproject.org">https://torproject.org</a>
+مراجعه کنید.
+چیزی که ویکیپدیا در مورد تور گفته : 
+<blockquote><p>تور سامانه‌ای است که برای ناشناسی (ناشناس ماندن) کاربران در محیط اینترنت به کار می‌رود و از نرم‌افزار کارخواه و شبکه‌ای از سرویس دهنده ها (سرورها) تشکیل شده و می‌تواند داده‌هایی از کاربران را مانند جایگاه و نشانی پروتکل اینترنت پنهان کند. بهره گیری از این سامانه ردگیری و شنود داده‌های کاربر را به دست دیگران بسیار سخت می‌کند. این ردگیری و شنود می‌تواند در مورد بسیاری از فعالیت‌های کاربر مثل وبگاه‌هایی که بازدید کرده، پرونده‌هایی که بارگیری و بارگذاری کرده، پیامهایی که از طریق نرم‌افزارهای پیام‌رسان ارسال یا دریافت کرده و هر گونه ارتباطاتی که در محیط اینترنت برقرار کرده، صورت پذیرد لذا می‌توان گفت که این سیستم برای محافظت از آزادی کاربران و حفظ حریم خصوصی آنها در محیط اینترنت طراحی شده‌است. این نرم‌افزار، یک نرم‌افزار آزاد است و استفاده از شبکهٔ آن نیز رایگان است.</p><footer><strong>ویکیپدیا ,</strong> <cite><a href='https://fa.wikipedia.org/wiki/%D8%AA%D9%88%D8%B1_(%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87_%D9%86%D8%B1%D9%85%E2%80%8C%D8%A7%D9%81%D8%B2%D8%A7%D8%B1%DB%8C)'>fa.wikipedia.org/wiki/&hellip;</a></cite></footer></blockquote>
+
+</p>
+
+
+<h3>نحوه استفاده از تور به صورت تونل در گنو/لینوکس</h3>
+
+
+<p>
+برای استفاده از سیستم قدرتمند تور ۲ راه حل وجود دارد. ۱- استفاده از مرورگر تور که در سایت اصلی تور به ادرس torproject.org قایل دانلود هست
+۲- اتفاده از تور به صورت تونل با استفاده از بریج (پل) که می خوایم امروز این اموزش را با شما به اشتراک بزاریم.
+برای نصب تور در سیستم های لینوکسی (دبین بیس ها) ابتدا دستورات زیر را به ترتیب وارد کنید :
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'>‪<span class="nv">$ </span>sudo apt update
+</span><span class='line'>‪<span class="nv">$ </span>sudo apt install tor
+</span><span class='line'>‪<span class="nv">$ </span>sudo apt install obfs4proxy
+</span></code></pre></td></tr></table></div></figure>
+بعد از نصب موارد بالا کافیست که پل ها یا همون bridge ها رو از تور بگیرید که به صورت روزانه اپدیت می شن.برای این کار یک ایمیل با محتوای 
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='html'><span class='line'>‪get transport obfs4
+</span></code></pre></td></tr></table></div></figure>
+به ادرس bridges@torproject.org بفرستید.بعد از چند دقیقه یک ایمیل حاوی پل های بروز دریافت می کنید مطابق شکل زیر : 
+‪<img src="https://pichoster.net/images/2017/03/06/f6f1492d15e486d974869bf38b05e181.jpg" alt="f6f1492d15e486d974869bf38b05e181.jpg" border="0" />
+مطابق شکل ۳ پل دریافت می کنید که فقط کافیت یک کدوم دلخواه انتخاب کنید و مراحل زیر طی کنید :
+ترمینال را باز کنید و با استفاده از یک ادیتور متن(هر ادیتوری که راحت هستید) فایل زیر را باز کنید : 
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'>‪<span class="nv">$ </span>sudo vim /etc/tor/torrc
+</span></code></pre></td></tr></table></div></figure>
+سپس متن زیر را در انتهای ان کپی کرده و ان را ذخیره کنید :
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'>‪‪UseBridges 1
+</span><span class='line'>‪Bridge     XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+</span><span class='line'>‪ClientTransportPlugin obfs4 <span class="nb">exec</span> /usr/bin/obfs4proxy
+</span></code></pre></td></tr></table></div></figure>
+در متن بالا فقط کافیست بجای xxxxxxها یکی از پل های دریافتی در ایمیل را جایگزین کنید و فایل را ذخیره کنید.
+در اخر برای فعال شدن سرویس تور ترمینال را باز کرده و دستورات زیر را وارد کنید :
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'>‪<span class="nv">$ </span>sudo systemctl <span class="nb">enable </span>tor.service
+</span><span class='line'>‪<span class="nv">$sudo</span> systemctl restart tor.service
+</span></code></pre></td></tr></table></div></figure>
+حال کافیت با دستور زیر وضعیت سرویس تور خود را چک کنید که به شما می گوید ایا شما با موفقیت به پل ها وصل شدید ویا خطایی رخ داده است فقط کافیه دستور زیر را در ترمینال وارد کنید :
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'>‪<span class="nv">$ </span>tail -f /var/log/tor/log
+</span></code></pre></td></tr></table></div></figure>
+باید مطابق شکل زیر بعد از وارد کردن دستور بالا در انتهای لاگ تور ۱۰۰٪ را مشاهده کنید که گواهی از وصل شدن درست شما به سرویس تو با استفاده از بریج ها و پل هاست :
+‪<img src="https://pichoster.net/images/2017/03/06/e7f0a1c9532b317ec364329f9287aecd.jpg" alt="e7f0a1c9532b317ec364329f9287aecd.jpg" border="0" />
+در اخرین مرحله باید پراکسی سیستم و یا نرم افزاری که می خواین ازش از طریق تور استفاده کنید را روی :
+127.0.0.1:9050‪
+تنظیم کنید وتمام.
+
+
+</p>
+
+
+<h3>مشکل احتمالی تور در سیستم های لینوکس!</h3>
+
+
+<p>
+اگر بعد از وارد کردن دستور 
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'>‪<span class="nv">$ </span>tail -f /var/log/tor/log
+</span></code></pre></td></tr></table></div></figure>
+عدد پیشرفت به ۱۰۰٪ نرسید و در یک مرحله گیر کرد و شما متن زیر را به عنوان ارور دریافت کردید به خاطر یک باگ در سیستم اپ ارمور سیستم شماست : 
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'>‪<span class="o">[</span>warn<span class="o">]</span> Could not launch managed proxy executable at <span class="s1">&#39;/usr/bin/obfs4proxy&#39;</span> <span class="o">(</span><span class="s1">&#39;Operation not permitted&#39;</span><span class="o">)</span>.
+</span></code></pre></td></tr></table></div></figure>
+برای رفع مشکل apparmoor باید فایل زیر را باز کرده : 
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'>‪/etc/apparmor.d/abstractions/tor
+</span></code></pre></td></tr></table></div></figure>
+و متن زیر را : 
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'>‪/usr/bin/obfs4proxy PUx,
+</span></code></pre></td></tr></table></div></figure>
+به متن زیر تغییر دهید : 
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'>‪/usr/bin/obfs4proxy ix,
+</span></code></pre></td></tr></table></div></figure>
+در نهایت برای بروز رسانی اپ ارومور دستور زیر را در ترمینال وارد کنید :
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'>‪<span class="nv">$ </span>sudo apparmor_parser -r -v /etc/apparmor.d/system_tor
+</span></code></pre></td></tr></table></div></figure>
+</p>
+
+
+<h3>تبریک می گم شما به تور وصل شدید!!</h3>
+
+
+<p>
+شما الان به سادگی می تونید از اینترنت ازاد استفاده کنید و لذت ببرید شاید یکم اولش گیج کننده به نظر بیاد ولی یادتون باشه شما یک گیک هستید و هیچ چیزی برای یک گیک و علاقه مند به تکنولوژي نباید سخت و غیر ممکن باشد.
+یادتون باشه اگر بعد از چند روز نمی تونستید به تور وصل شید اصلا نگران نباشید کافیه درخاست بریج بدید(مثل مراحل بالا) و پل جدید را با قبلی ها جایگزین کنید و تمام.
+منابع :
+‪<a href="https://wiki.ubuntu.ir/wiki/%D9%BE%D9%84_(%D8%AA%D9%88%D8%B1)">https://wiki.ubuntu.ir/wiki/%D9%BE%D9%84_(%D8%AA%D9%88%D8%B1)</a>
+
+</p>
+
+
+<p></body></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[نحوه اجرای بازی های پلی استیشین ۱ در لینوکس :)]]></title>
